@@ -16,8 +16,8 @@
 
 
 #Создаём базу Cars через PowerShell, добавим 1 объект
-test> use cars_db
-cars_db> db.cars.insertOne({'brand': 'Toyota', 'model': 'CHR', 'mileage': 30000, 'price': 23.5})
+# test> use cars_db
+# cars_db> db.cars.insertOne({'brand': 'Toyota', 'model': 'CHR', 'mileage': 30000, 'price': 23.5})
 
 
 #Через PyCharm импортируем модуль pymongo и связываемся с базой данных Cars
